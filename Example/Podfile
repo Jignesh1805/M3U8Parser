@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'M3U8Parser_Example' do
+  pod 'M3U8Parser', :path => '../'
+
+  target 'M3U8Parser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
