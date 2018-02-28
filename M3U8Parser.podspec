@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'M3U8Parser'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of M3U8Parser.'
+  s.summary          = 'M3U8Parser is a .m3u8 parse'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  M3U8Parser is .m3u8 parser an generate some url
+    DESC
 
   s.homepage         = 'https://github.com/Jignesh1805/M3U8Parser'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
