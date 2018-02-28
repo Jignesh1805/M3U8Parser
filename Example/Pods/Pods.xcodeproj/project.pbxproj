@@ -15,7 +15,18 @@
 		82FD5AA46C1A668C45B70920BE00282A /* Pods-M3U8Parser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 605D1F82197655880B9A5F779020BE42 /* Pods-M3U8Parser_Tests-dummy.m */; };
 		A466B35235219ED6D9CF81226117BDEA /* Pods-M3U8Parser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D719145E44727174446A688B24723770 /* Pods-M3U8Parser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A656B95203D3CB9776C4AA90D393F591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B15CB842204686DE00F92360 /* BufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB841204686DE00F92360 /* BufferedReader.swift */; };
+		B15CB8722046A4AF00F92360 /* MediaSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB8662046A4AE00F92360 /* MediaSegment.swift */; };
+		B15CB8732046A4AF00F92360 /* FileBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB8672046A4AE00F92360 /* FileBufferedReader.swift */; };
+		B15CB8742046A4AF00F92360 /* ManifestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB8682046A4AE00F92360 /* ManifestBuilder.swift */; };
+		B15CB8752046A4AF00F92360 /* MediaPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB8692046A4AE00F92360 /* MediaPlaylist.swift */; };
+		B15CB8762046A4AF00F92360 /* StringBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB86A2046A4AE00F92360 /* StringBufferedReader.swift */; };
+		B15CB8772046A4AF00F92360 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB86B2046A4AE00F92360 /* StreamReader.swift */; };
+		B15CB8782046A4AF00F92360 /* URLBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB86C2046A4AE00F92360 /* URLBufferedReader.swift */; };
+		B15CB8792046A4AF00F92360 /* NSURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB86D2046A4AF00F92360 /* NSURLExtension.swift */; };
+		B15CB87A2046A4AF00F92360 /* MasterPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB86E2046A4AF00F92360 /* MasterPlaylist.swift */; };
+		B15CB87B2046A4AF00F92360 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB86F2046A4AF00F92360 /* StringExtensions.swift */; };
+		B15CB87C2046A4AF00F92360 /* BufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB8702046A4AF00F92360 /* BufferedReader.swift */; };
+		B15CB87D2046A4AF00F92360 /* ReaderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB8712046A4AF00F92360 /* ReaderBuilder.swift */; };
 		E03BE69637AF762E077460FB24223FD1 /* Pods-M3U8Parser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A777AA740FE738C2EF017DA3B141F588 /* Pods-M3U8Parser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E137D2F94C18F4A6534270D9A39DE4C3 /* M3U8Parser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4D950BFEDC22B3B6C5796EF4AF5E66 /* M3U8Parser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -55,7 +66,18 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A777AA740FE738C2EF017DA3B141F588 /* Pods-M3U8Parser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-M3U8Parser_Example-umbrella.h"; sourceTree = "<group>"; };
 		B00AFBFB7259F2B853BA3290C23B839D /* M3U8Parser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M3U8Parser-dummy.m"; sourceTree = "<group>"; };
-		B15CB841204686DE00F92360 /* BufferedReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferedReader.swift; sourceTree = "<group>"; };
+		B15CB8662046A4AE00F92360 /* MediaSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaSegment.swift; path = M3U8Parser/Classes/MediaSegment.swift; sourceTree = "<group>"; };
+		B15CB8672046A4AE00F92360 /* FileBufferedReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileBufferedReader.swift; path = M3U8Parser/Classes/FileBufferedReader.swift; sourceTree = "<group>"; };
+		B15CB8682046A4AE00F92360 /* ManifestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManifestBuilder.swift; path = M3U8Parser/Classes/ManifestBuilder.swift; sourceTree = "<group>"; };
+		B15CB8692046A4AE00F92360 /* MediaPlaylist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaPlaylist.swift; path = M3U8Parser/Classes/MediaPlaylist.swift; sourceTree = "<group>"; };
+		B15CB86A2046A4AE00F92360 /* StringBufferedReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringBufferedReader.swift; path = M3U8Parser/Classes/StringBufferedReader.swift; sourceTree = "<group>"; };
+		B15CB86B2046A4AE00F92360 /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = M3U8Parser/Classes/StreamReader.swift; sourceTree = "<group>"; };
+		B15CB86C2046A4AE00F92360 /* URLBufferedReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLBufferedReader.swift; path = M3U8Parser/Classes/URLBufferedReader.swift; sourceTree = "<group>"; };
+		B15CB86D2046A4AF00F92360 /* NSURLExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSURLExtension.swift; path = M3U8Parser/Classes/NSURLExtension.swift; sourceTree = "<group>"; };
+		B15CB86E2046A4AF00F92360 /* MasterPlaylist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterPlaylist.swift; path = M3U8Parser/Classes/MasterPlaylist.swift; sourceTree = "<group>"; };
+		B15CB86F2046A4AF00F92360 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = M3U8Parser/Classes/StringExtensions.swift; sourceTree = "<group>"; };
+		B15CB8702046A4AF00F92360 /* BufferedReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BufferedReader.swift; path = M3U8Parser/Classes/BufferedReader.swift; sourceTree = "<group>"; };
+		B15CB8712046A4AF00F92360 /* ReaderBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReaderBuilder.swift; path = M3U8Parser/Classes/ReaderBuilder.swift; sourceTree = "<group>"; };
 		B3A71C134E3F2474779A7AA4292FD12E /* Pods_M3U8Parser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M3U8Parser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57DAD7405B7537C0A003D0B8BBEF341 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B7916FEEAB34C4E42B7BBBDF6C7E131E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,7 +123,18 @@
 			isa = PBXGroup;
 			children = (
 				E59746B61815EDE53EE8ACAE347796C2 /* ReplaceMe.swift */,
-				B15CB841204686DE00F92360 /* BufferedReader.swift */,
+				B15CB8702046A4AF00F92360 /* BufferedReader.swift */,
+				B15CB8672046A4AE00F92360 /* FileBufferedReader.swift */,
+				B15CB8682046A4AE00F92360 /* ManifestBuilder.swift */,
+				B15CB86E2046A4AF00F92360 /* MasterPlaylist.swift */,
+				B15CB8692046A4AE00F92360 /* MediaPlaylist.swift */,
+				B15CB8662046A4AE00F92360 /* MediaSegment.swift */,
+				B15CB86D2046A4AF00F92360 /* NSURLExtension.swift */,
+				B15CB8712046A4AF00F92360 /* ReaderBuilder.swift */,
+				B15CB86B2046A4AE00F92360 /* StreamReader.swift */,
+				B15CB86A2046A4AE00F92360 /* StringBufferedReader.swift */,
+				B15CB86F2046A4AF00F92360 /* StringExtensions.swift */,
+				B15CB86C2046A4AE00F92360 /* URLBufferedReader.swift */,
 				BE496993ECA16B5C96E4A52EEF7E5F85 /* Pod */,
 				2AC714AA656299F9EF0110E575D8873F /* Support Files */,
 			);
@@ -354,9 +387,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15CB842204686DE00F92360 /* BufferedReader.swift in Sources */,
+				B15CB87B2046A4AF00F92360 /* StringExtensions.swift in Sources */,
 				68EC203F0E9874136FA45DA7F3DE4637 /* M3U8Parser-dummy.m in Sources */,
+				B15CB87D2046A4AF00F92360 /* ReaderBuilder.swift in Sources */,
+				B15CB8732046A4AF00F92360 /* FileBufferedReader.swift in Sources */,
+				B15CB8752046A4AF00F92360 /* MediaPlaylist.swift in Sources */,
+				B15CB8722046A4AF00F92360 /* MediaSegment.swift in Sources */,
+				B15CB8782046A4AF00F92360 /* URLBufferedReader.swift in Sources */,
+				B15CB8772046A4AF00F92360 /* StreamReader.swift in Sources */,
+				B15CB8742046A4AF00F92360 /* ManifestBuilder.swift in Sources */,
+				B15CB8762046A4AF00F92360 /* StringBufferedReader.swift in Sources */,
+				B15CB87A2046A4AF00F92360 /* MasterPlaylist.swift in Sources */,
+				B15CB8792046A4AF00F92360 /* NSURLExtension.swift in Sources */,
 				69DEE9A8842DF920FF2607CF268E3122 /* ReplaceMe.swift in Sources */,
+				B15CB87C2046A4AF00F92360 /* BufferedReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

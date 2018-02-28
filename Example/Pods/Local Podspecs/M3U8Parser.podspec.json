@@ -1,0 +1,22 @@
+{
+  "name": "M3U8Parser",
+  "version": "0.1.0",
+  "summary": "A short description of M3U8Parser.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jignesh1805/M3U8Parser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jignesh1805": "jigneshrathod1805@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Jignesh1805/M3U8Parser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "M3U8Parser/Classes/**/*"
+}

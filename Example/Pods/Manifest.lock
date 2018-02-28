@@ -1,0 +1,16 @@
+PODS:
+  - M3U8Parser (0.1.0)
+
+DEPENDENCIES:
+  - M3U8Parser (from `../`)
+
+EXTERNAL SOURCES:
+  M3U8Parser:
+    :path: ../
+
+SPEC CHECKSUMS:
+  M3U8Parser: 6bfd7f07aac328c67e05fea66acf0fb2b1427a37
+
+PODFILE CHECKSUM: d4290c2c481dd3190fa7c690b53ab21789bf2b8a
+
+COCOAPODS: 1.4.0
