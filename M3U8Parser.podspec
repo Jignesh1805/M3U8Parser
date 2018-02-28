@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'M3U8Parser'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'M3U8Parser is a .m3u8 parse'
 
 # This description is used to generate tags and improve search results.
