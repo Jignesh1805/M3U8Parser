@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/Jignesh1805/M3U8Parser'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Jignesh1805' => 'jigneshrathod1805@gmail.com' }
+  s.author           = { 'Jignesh1805' => 'rathodjignesh1805@gmail.com' }
   #s.source           = { :git => "https://github.com/Jignesh1805/M3U8Parser.git", :branch => "master", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
  
