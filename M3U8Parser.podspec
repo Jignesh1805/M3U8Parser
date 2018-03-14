@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jignesh1805' => 'jigneshrathod1805@gmail.com' }
-  s.source           = { :git => "https://github.com/myrepo/Podspecs.git", :branch => "master", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/M3U8Parser/Podspecs.git", :branch => "master", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
  
   s.ios.deployment_target = '8.0'
