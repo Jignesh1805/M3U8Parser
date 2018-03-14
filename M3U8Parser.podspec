@@ -25,13 +25,18 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jignesh1805' => 'jigneshrathod1805@gmail.com' }
-  s.source           = { :git => "https://github.com/Jignesh1805/M3U8Parser.git", :branch => "master", :tag => s.version.to_s }
+  #s.source           = { :git => "https://github.com/Jignesh1805/M3U8Parser.git", :branch => "master", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
  
-  s.ios.deployment_target = '8.0'
-
+ #s.ios.deployment_target = '8.0'
+ s.platform = :ios, '8.0'
+ s.source = {
+     :git => "https://github.com/Jignesh1805/M3U8Parser.git",
+     :tag => "v#{s.version.to_s}"
+ }
+ 
   s.source_files = 'M3U8Parser/Classes/**/*'
-  
+  s.requires_arc = true
   # s.resource_bundles = {
   #   'M3U8Parser' => ['M3U8Parser/Assets/*.png']
   # }
