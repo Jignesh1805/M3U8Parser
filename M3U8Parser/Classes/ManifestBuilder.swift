@@ -35,7 +35,7 @@ public class ManifestBuilder {
             if line.isEmpty {
                 // Skip empty lines
                 
-            } else if line.hasPrefix("#EXT") {
+            } else if line.hasPrefix("#EXT") { 
                 
                 // Tags
                 if line.hasPrefix("#EXTM3U") {
