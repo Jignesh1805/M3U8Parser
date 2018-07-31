@@ -251,6 +251,7 @@ public class ManifestBuilder {
         ((_ playlist: MediaPlaylist) -> Void)? = nil, onMediaSegment:
         ((_ segment: MediaSegment) -> Void)? = nil) -> MasterPlaylist {
         stringUrl = url.absoluteString!
+        var index = 1
         // Parse master
         
         let master = parseMasterPlaylistFromURL(url: url, onMediaPlaylist: onMediaPlaylist)
