@@ -12,6 +12,7 @@ import Foundation
  */
 public class ManifestBuilder {
     var stringUrl:String = ""
+    var masterPlaylist = MasterPlaylist()
     public init() {}
     
     /**
@@ -19,7 +20,7 @@ public class ManifestBuilder {
      */
     private func parseMasterPlaylist(reader: BufferedReader, onMediaPlaylist:
         ((_ playlist: MediaPlaylist) -> Void)?) -> MasterPlaylist {
-        var masterPlaylist = MasterPlaylist()
+       // var masterPlaylist = MasterPlaylist()
         var currentMediaPlaylist: MediaPlaylist?
         
         let playlist = MediaPlaylist()
@@ -254,9 +255,18 @@ public class ManifestBuilder {
         
         let master = parseMasterPlaylistFromURL(url: url, onMediaPlaylist: onMediaPlaylist)
         for playlist in master.playlists {
-            if let path = playlist.path {
+               if let path = playlist.path {
                 if let mediaURL = url.URLByReplacingLastPathComponent(pathComponent: path) {
+                    if playlist.resolution != "Auto" && !(playlist.path?.contains("http"))!{
+                        masterPlaylist.getPlaylist(index: index)?.path = String(describing: mediaURL)
+                        index = index + 1
+                    }
                     _ = parseMediaPlaylistFromURL(url: mediaURL,mediaPlaylist: playlist, onMediaSegment: onMediaSegment)
+                }else {
+                    // Relative path used
+                    if let mediaURL = url.URLByReplacingLastPathComponent(pathComponent: path) {
+                        _ = parseMediaPlaylistFromURL(url: mediaURL,mediaPlaylist: playlist, onMediaSegment: onMediaSegment)
+                    }
                 }
             }
         }
