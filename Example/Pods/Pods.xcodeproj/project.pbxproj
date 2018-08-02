@@ -8,27 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		085485B8CE90F36DAD3B5BF8D82A6CE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		15BD7F345728B1B32DFB6DF074A27635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0EDABB8E5E07561FCB3A3788C74BA0AC /* NSURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC23862341F444B7C315326FA6F155 /* NSURLExtension.swift */; };
+		3AD5C44A177991005A1E6828ADA1EF8E /* BufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC7326B6FB6DD27BCB270201350231D /* BufferedReader.swift */; };
 		45C055170EF5698D0026D94DC658D39B /* Pods-M3U8Parser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72864208BB554820F6FEEFCB48481AF3 /* Pods-M3U8Parser_Example-dummy.m */; };
-		68EC203F0E9874136FA45DA7F3DE4637 /* M3U8Parser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B00AFBFB7259F2B853BA3290C23B839D /* M3U8Parser-dummy.m */; };
-		69DEE9A8842DF920FF2607CF268E3122 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59746B61815EDE53EE8ACAE347796C2 /* ReplaceMe.swift */; };
+		4A4A9CD9C452EFF9705BAC0F5A22F271 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CEEAEACDFACDF5909724C88598E0AB /* ReplaceMe.swift */; };
+		4B2DD7F02E2B4AEC4B9A34586F42F08C /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D75E3D7277D6103B6F6FE26724CF8 /* StreamReader.swift */; };
+		4C24A13346BE373A9542C87DA75E10D9 /* MasterPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76DAB777D8246C6695C88C95871DD85 /* MasterPlaylist.swift */; };
+		5AB17164106C8EA23389D99071390BF9 /* ReaderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A740FAFA3F22AFB39C6587C8F9ECFEF /* ReaderBuilder.swift */; };
+		7C46BC0A2C92D4BB545B53678D74225C /* ManifestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C25ADC3A5AAE6665E7982758BC1F4C /* ManifestBuilder.swift */; };
 		82FD5AA46C1A668C45B70920BE00282A /* Pods-M3U8Parser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 605D1F82197655880B9A5F779020BE42 /* Pods-M3U8Parser_Tests-dummy.m */; };
+		845914F83ECCB6BBDF49F04CEE66C821 /* MediaSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA604C106ADF342AFA8001230F240E2 /* MediaSegment.swift */; };
+		A0AF56B8E00086075339BB2F5038AB13 /* M3U8Parser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA1A74B1FD76AA135A6B6DABAE15218 /* M3U8Parser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A466B35235219ED6D9CF81226117BDEA /* Pods-M3U8Parser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D719145E44727174446A688B24723770 /* Pods-M3U8Parser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A656B95203D3CB9776C4AA90D393F591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B15CB8722046A4AF00F92360 /* MediaSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB8662046A4AE00F92360 /* MediaSegment.swift */; };
-		B15CB8732046A4AF00F92360 /* FileBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB8672046A4AE00F92360 /* FileBufferedReader.swift */; };
-		B15CB8742046A4AF00F92360 /* ManifestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB8682046A4AE00F92360 /* ManifestBuilder.swift */; };
-		B15CB8752046A4AF00F92360 /* MediaPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB8692046A4AE00F92360 /* MediaPlaylist.swift */; };
-		B15CB8762046A4AF00F92360 /* StringBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB86A2046A4AE00F92360 /* StringBufferedReader.swift */; };
-		B15CB8772046A4AF00F92360 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB86B2046A4AE00F92360 /* StreamReader.swift */; };
-		B15CB8782046A4AF00F92360 /* URLBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB86C2046A4AE00F92360 /* URLBufferedReader.swift */; };
-		B15CB8792046A4AF00F92360 /* NSURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB86D2046A4AF00F92360 /* NSURLExtension.swift */; };
-		B15CB87A2046A4AF00F92360 /* MasterPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB86E2046A4AF00F92360 /* MasterPlaylist.swift */; };
-		B15CB87B2046A4AF00F92360 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB86F2046A4AF00F92360 /* StringExtensions.swift */; };
-		B15CB87C2046A4AF00F92360 /* BufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB8702046A4AF00F92360 /* BufferedReader.swift */; };
-		B15CB87D2046A4AF00F92360 /* ReaderBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15CB8712046A4AF00F92360 /* ReaderBuilder.swift */; };
+		B6C3C26C181299BEFE0100E39B70ECF4 /* MediaPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676B108D208B51561BB002FFD3476520 /* MediaPlaylist.swift */; };
+		B7A06CF64C5E7B19F8B2B36619403018 /* URLBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1D70BC0BDA58B204BD336325E3B820 /* URLBufferedReader.swift */; };
+		BE294A6CA4E2C7E200ED0CD12174602D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C0FEC63FBE2988CCEB85A8B8FE170DD8 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD0EB23D3FA55A8F7CAA3DD21D6BEE5 /* StringExtensions.swift */; };
+		C433A1FCA32C67ECF7B88CB6BA985A04 /* M3U8Parser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC63991E99EAD1F56FBE6F26567278 /* M3U8Parser-dummy.m */; };
+		C4ACA07F2D505557EFA2C63F264F568A /* StringBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0974488014B028074A27EFD5406BBF /* StringBufferedReader.swift */; };
+		DF71A6979E3D18DA8780EEED52AD0C34 /* FileBufferedReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A79311F32B790078109D23D1D44E96 /* FileBufferedReader.swift */; };
 		E03BE69637AF762E077460FB24223FD1 /* Pods-M3U8Parser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A777AA740FE738C2EF017DA3B141F588 /* Pods-M3U8Parser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E137D2F94C18F4A6534270D9A39DE4C3 /* M3U8Parser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4D950BFEDC22B3B6C5796EF4AF5E66 /* M3U8Parser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7F69583224F6D240D1C49AF4F8C9DF28;
+			remoteGlobalIDString = 858C7B31046058FAC23EAA2171FABB16;
 			remoteInfo = M3U8Parser;
 		};
 /* End PBXContainerItemProxy section */
@@ -44,51 +44,51 @@
 /* Begin PBXFileReference section */
 		03A0CF0D66308963C401191AD5DBEC76 /* Pods-M3U8Parser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M3U8Parser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		050CDB1AFC77017E79152FE58BDEBC08 /* Pods-M3U8Parser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M3U8Parser_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0DCFBAD1946BB977017A247EE80EACC6 /* M3U8Parser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M3U8Parser-prefix.pch"; sourceTree = "<group>"; };
 		0F0996DB4B0F6E88522E13403339ACC4 /* Pods-M3U8Parser_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-M3U8Parser_Example-resources.sh"; sourceTree = "<group>"; };
+		1142B63BBB4E66793CAB71BCC043D900 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17790003D0F3CD6970BFB0533C5DC9C4 /* Pods-M3U8Parser_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-M3U8Parser_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2DA1A74B1FD76AA135A6B6DABAE15218 /* M3U8Parser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M3U8Parser-umbrella.h"; sourceTree = "<group>"; };
+		2F857C94F03EDF1923735B28296D65EE /* M3U8Parser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M3U8Parser.modulemap; sourceTree = "<group>"; };
 		307BC4035FE43E6C95BBE6DDA9983FF3 /* Pods-M3U8Parser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-M3U8Parser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		315D75E3D7277D6103B6F6FE26724CF8 /* StreamReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = M3U8Parser/Classes/StreamReader.swift; sourceTree = "<group>"; };
 		34A6948C5C1BFF1BE8638E5A55FA5AD1 /* Pods-M3U8Parser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-M3U8Parser_Tests.modulemap"; sourceTree = "<group>"; };
 		373A1CEB1F150D4259FB617184783406 /* Pods-M3U8Parser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-M3U8Parser_Example.modulemap"; sourceTree = "<group>"; };
-		3EF63E907B24860C9CCB574EC7EBD902 /* Pods_M3U8Parser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M3U8Parser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF63E907B24860C9CCB574EC7EBD902 /* Pods_M3U8Parser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_M3U8Parser_Tests.framework; path = "Pods-M3U8Parser_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EEFF9243AAA9134C144CD9700E0FE7 /* Pods-M3U8Parser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M3U8Parser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4B43E84DEB720F164BDBE85B192F06BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		59372196A27F9A72753FC0D2F45C6F0B /* M3U8Parser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M3U8Parser.modulemap; sourceTree = "<group>"; };
-		5C96BD88D8BEC0246644DD6891349838 /* M3U8Parser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = M3U8Parser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		46AB37A3C5BE9DB2028E376B05CA3B4A /* M3U8Parser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = M3U8Parser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5AD0EB23D3FA55A8F7CAA3DD21D6BEE5 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = M3U8Parser/Classes/StringExtensions.swift; sourceTree = "<group>"; };
 		605D1F82197655880B9A5F779020BE42 /* Pods-M3U8Parser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-M3U8Parser_Tests-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6FFB66ECB7D61E3738DF18FFC8F8477D /* M3U8Parser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M3U8Parser.xcconfig; sourceTree = "<group>"; };
+		676B108D208B51561BB002FFD3476520 /* MediaPlaylist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaPlaylist.swift; path = M3U8Parser/Classes/MediaPlaylist.swift; sourceTree = "<group>"; };
+		68CEEAEACDFACDF5909724C88598E0AB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = M3U8Parser/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6A740FAFA3F22AFB39C6587C8F9ECFEF /* ReaderBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReaderBuilder.swift; path = M3U8Parser/Classes/ReaderBuilder.swift; sourceTree = "<group>"; };
+		6E7C20D7566C7183D26007B586F54BFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		72864208BB554820F6FEEFCB48481AF3 /* Pods-M3U8Parser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-M3U8Parser_Example-dummy.m"; sourceTree = "<group>"; };
-		7D4D950BFEDC22B3B6C5796EF4AF5E66 /* M3U8Parser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M3U8Parser-umbrella.h"; sourceTree = "<group>"; };
 		7E85D7199A4B8BDA9AEDF591BDE571B3 /* Pods-M3U8Parser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-M3U8Parser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FA604C106ADF342AFA8001230F240E2 /* MediaSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaSegment.swift; path = M3U8Parser/Classes/MediaSegment.swift; sourceTree = "<group>"; };
+		8002B459E7EAA2937468A8EB10DA279C /* M3U8Parser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M3U8Parser-prefix.pch"; sourceTree = "<group>"; };
 		85667EC00110F85E06433B3A5E592E24 /* Pods-M3U8Parser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-M3U8Parser_Example-frameworks.sh"; sourceTree = "<group>"; };
 		87ECA57A49FAFB0BA5B7657EA79541B4 /* Pods-M3U8Parser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-M3U8Parser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A0974488014B028074A27EFD5406BBF /* StringBufferedReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringBufferedReader.swift; path = M3U8Parser/Classes/StringBufferedReader.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A777AA740FE738C2EF017DA3B141F588 /* Pods-M3U8Parser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-M3U8Parser_Example-umbrella.h"; sourceTree = "<group>"; };
-		B00AFBFB7259F2B853BA3290C23B839D /* M3U8Parser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M3U8Parser-dummy.m"; sourceTree = "<group>"; };
-		B15CB8662046A4AE00F92360 /* MediaSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaSegment.swift; path = M3U8Parser/Classes/MediaSegment.swift; sourceTree = "<group>"; };
-		B15CB8672046A4AE00F92360 /* FileBufferedReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileBufferedReader.swift; path = M3U8Parser/Classes/FileBufferedReader.swift; sourceTree = "<group>"; };
-		B15CB8682046A4AE00F92360 /* ManifestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManifestBuilder.swift; path = M3U8Parser/Classes/ManifestBuilder.swift; sourceTree = "<group>"; };
-		B15CB8692046A4AE00F92360 /* MediaPlaylist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaPlaylist.swift; path = M3U8Parser/Classes/MediaPlaylist.swift; sourceTree = "<group>"; };
-		B15CB86A2046A4AE00F92360 /* StringBufferedReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringBufferedReader.swift; path = M3U8Parser/Classes/StringBufferedReader.swift; sourceTree = "<group>"; };
-		B15CB86B2046A4AE00F92360 /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = M3U8Parser/Classes/StreamReader.swift; sourceTree = "<group>"; };
-		B15CB86C2046A4AE00F92360 /* URLBufferedReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = URLBufferedReader.swift; path = M3U8Parser/Classes/URLBufferedReader.swift; sourceTree = "<group>"; };
-		B15CB86D2046A4AF00F92360 /* NSURLExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSURLExtension.swift; path = M3U8Parser/Classes/NSURLExtension.swift; sourceTree = "<group>"; };
-		B15CB86E2046A4AF00F92360 /* MasterPlaylist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterPlaylist.swift; path = M3U8Parser/Classes/MasterPlaylist.swift; sourceTree = "<group>"; };
-		B15CB86F2046A4AF00F92360 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = M3U8Parser/Classes/StringExtensions.swift; sourceTree = "<group>"; };
-		B15CB8702046A4AF00F92360 /* BufferedReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BufferedReader.swift; path = M3U8Parser/Classes/BufferedReader.swift; sourceTree = "<group>"; };
-		B15CB8712046A4AF00F92360 /* ReaderBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReaderBuilder.swift; path = M3U8Parser/Classes/ReaderBuilder.swift; sourceTree = "<group>"; };
-		B3A71C134E3F2474779A7AA4292FD12E /* Pods_M3U8Parser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_M3U8Parser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B57DAD7405B7537C0A003D0B8BBEF341 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B2C25ADC3A5AAE6665E7982758BC1F4C /* ManifestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManifestBuilder.swift; path = M3U8Parser/Classes/ManifestBuilder.swift; sourceTree = "<group>"; };
+		B3A71C134E3F2474779A7AA4292FD12E /* Pods_M3U8Parser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_M3U8Parser_Example.framework; path = "Pods-M3U8Parser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EC63991E99EAD1F56FBE6F26567278 /* M3U8Parser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M3U8Parser-dummy.m"; sourceTree = "<group>"; };
 		B7916FEEAB34C4E42B7BBBDF6C7E131E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAA5F3B5A1A769D61F0D714DE5C1BC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BDC7326B6FB6DD27BCB270201350231D /* BufferedReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BufferedReader.swift; path = M3U8Parser/Classes/BufferedReader.swift; sourceTree = "<group>"; };
 		C43DA3248392CD32A988F2F350471AD5 /* Pods-M3U8Parser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-M3U8Parser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C76DAB777D8246C6695C88C95871DD85 /* MasterPlaylist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MasterPlaylist.swift; path = M3U8Parser/Classes/MasterPlaylist.swift; sourceTree = "<group>"; };
+		C7A79311F32B790078109D23D1D44E96 /* FileBufferedReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileBufferedReader.swift; path = M3U8Parser/Classes/FileBufferedReader.swift; sourceTree = "<group>"; };
 		D1E6671C59D4FFD1F04468806F862C51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D719145E44727174446A688B24723770 /* Pods-M3U8Parser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-M3U8Parser_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D874F1A8C3426E68FE97C07BE8A3C813 /* Pods-M3U8Parser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-M3U8Parser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E59746B61815EDE53EE8ACAE347796C2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = M3U8Parser/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		DA1D70BC0BDA58B204BD336325E3B820 /* URLBufferedReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLBufferedReader.swift; path = M3U8Parser/Classes/URLBufferedReader.swift; sourceTree = "<group>"; };
 		E7FC0D481AD1C51F5C19E673C1680950 /* Pods-M3U8Parser_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-M3U8Parser_Tests-resources.sh"; sourceTree = "<group>"; };
-		ECF540080FF69B40B7D2BE51801569B8 /* M3U8Parser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M3U8Parser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2FC36415221E9FAF19F2676B83379C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF540080FF69B40B7D2BE51801569B8 /* M3U8Parser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M3U8Parser.framework; path = M3U8Parser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C5242415EB552B7FB0E9E6BA87C004 /* M3U8Parser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M3U8Parser.xcconfig; sourceTree = "<group>"; };
+		FAEC23862341F444B7C315326FA6F155 /* NSURLExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSURLExtension.swift; path = M3U8Parser/Classes/NSURLExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +100,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B324A2675449A04F47868F3F02BE277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE294A6CA4E2C7E200ED0CD12174602D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86726B9D4566C87F2E6C26F8BA879AA3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -108,38 +116,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B395C839976F50B8D204B538D8893D68 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15BD7F345728B1B32DFB6DF074A27635 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		102D475BB85B28324D513BCC32876CA0 /* M3U8Parser */ = {
+		0682F0C2C732EB7804C2DB473C16DC58 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E59746B61815EDE53EE8ACAE347796C2 /* ReplaceMe.swift */,
-				B15CB8702046A4AF00F92360 /* BufferedReader.swift */,
-				B15CB8672046A4AE00F92360 /* FileBufferedReader.swift */,
-				B15CB8682046A4AE00F92360 /* ManifestBuilder.swift */,
-				B15CB86E2046A4AF00F92360 /* MasterPlaylist.swift */,
-				B15CB8692046A4AE00F92360 /* MediaPlaylist.swift */,
-				B15CB8662046A4AE00F92360 /* MediaSegment.swift */,
-				B15CB86D2046A4AF00F92360 /* NSURLExtension.swift */,
-				B15CB8712046A4AF00F92360 /* ReaderBuilder.swift */,
-				B15CB86B2046A4AE00F92360 /* StreamReader.swift */,
-				B15CB86A2046A4AE00F92360 /* StringBufferedReader.swift */,
-				B15CB86F2046A4AF00F92360 /* StringExtensions.swift */,
-				B15CB86C2046A4AE00F92360 /* URLBufferedReader.swift */,
-				BE496993ECA16B5C96E4A52EEF7E5F85 /* Pod */,
-				2AC714AA656299F9EF0110E575D8873F /* Support Files */,
+				1142B63BBB4E66793CAB71BCC043D900 /* Info.plist */,
+				2F857C94F03EDF1923735B28296D65EE /* M3U8Parser.modulemap */,
+				F6C5242415EB552B7FB0E9E6BA87C004 /* M3U8Parser.xcconfig */,
+				B6EC63991E99EAD1F56FBE6F26567278 /* M3U8Parser-dummy.m */,
+				8002B459E7EAA2937468A8EB10DA279C /* M3U8Parser-prefix.pch */,
+				2DA1A74B1FD76AA135A6B6DABAE15218 /* M3U8Parser-umbrella.h */,
 			);
-			name = M3U8Parser;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/M3U8Parser";
 			sourceTree = "<group>";
 		};
 		22D7410B00A2EE53336A24EE381EB98A /* Products */ = {
@@ -150,20 +141,6 @@
 				3EF63E907B24860C9CCB574EC7EBD902 /* Pods_M3U8Parser_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		2AC714AA656299F9EF0110E575D8873F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F2FC36415221E9FAF19F2676B83379C5 /* Info.plist */,
-				59372196A27F9A72753FC0D2F45C6F0B /* M3U8Parser.modulemap */,
-				6FFB66ECB7D61E3738DF18FFC8F8477D /* M3U8Parser.xcconfig */,
-				B00AFBFB7259F2B853BA3290C23B839D /* M3U8Parser-dummy.m */,
-				0DCFBAD1946BB977017A247EE80EACC6 /* M3U8Parser-prefix.pch */,
-				7D4D950BFEDC22B3B6C5796EF4AF5E66 /* M3U8Parser-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/M3U8Parser";
 			sourceTree = "<group>";
 		};
 		3222FEA90131716C8592C2884EB98C4B /* Pods-M3U8Parser_Example */ = {
@@ -202,23 +179,25 @@
 			path = "Target Support Files/Pods-M3U8Parser_Tests";
 			sourceTree = "<group>";
 		};
-		79FCC680BF77D9A21662E71E9D5E9DFB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				102D475BB85B28324D513BCC32876CA0 /* M3U8Parser */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				79FCC680BF77D9A21662E71E9D5E9DFB /* Development Pods */,
+				B193DE5EB06DA6D1EDCAC070DE7B33F2 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				22D7410B00A2EE53336A24EE381EB98A /* Products */,
 				9F18E85CF469AE395483462EC92C6A45 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		80FD14FFA3559ACBF8E3587CB1A84221 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BAAA5F3B5A1A769D61F0D714DE5C1BC6 /* LICENSE */,
+				46AB37A3C5BE9DB2028E376B05CA3B4A /* M3U8Parser.podspec */,
+				6E7C20D7566C7183D26007B586F54BFD /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		9F18E85CF469AE395483462EC92C6A45 /* Targets Support Files */ = {
@@ -230,6 +209,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		B193DE5EB06DA6D1EDCAC070DE7B33F2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D48812854933010DCD13BB8C4A7A9E69 /* M3U8Parser */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,22 +225,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE496993ECA16B5C96E4A52EEF7E5F85 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B57DAD7405B7537C0A003D0B8BBEF341 /* LICENSE */,
-				5C96BD88D8BEC0246644DD6891349838 /* M3U8Parser.podspec */,
-				4B43E84DEB720F164BDBE85B192F06BF /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D48812854933010DCD13BB8C4A7A9E69 /* M3U8Parser */ = {
+			isa = PBXGroup;
+			children = (
+				BDC7326B6FB6DD27BCB270201350231D /* BufferedReader.swift */,
+				C7A79311F32B790078109D23D1D44E96 /* FileBufferedReader.swift */,
+				B2C25ADC3A5AAE6665E7982758BC1F4C /* ManifestBuilder.swift */,
+				C76DAB777D8246C6695C88C95871DD85 /* MasterPlaylist.swift */,
+				676B108D208B51561BB002FFD3476520 /* MediaPlaylist.swift */,
+				7FA604C106ADF342AFA8001230F240E2 /* MediaSegment.swift */,
+				FAEC23862341F444B7C315326FA6F155 /* NSURLExtension.swift */,
+				6A740FAFA3F22AFB39C6587C8F9ECFEF /* ReaderBuilder.swift */,
+				68CEEAEACDFACDF5909724C88598E0AB /* ReplaceMe.swift */,
+				315D75E3D7277D6103B6F6FE26724CF8 /* StreamReader.swift */,
+				8A0974488014B028074A27EFD5406BBF /* StringBufferedReader.swift */,
+				5AD0EB23D3FA55A8F7CAA3DD21D6BEE5 /* StringExtensions.swift */,
+				DA1D70BC0BDA58B204BD336325E3B820 /* URLBufferedReader.swift */,
+				80FD14FFA3559ACBF8E3587CB1A84221 /* Pod */,
+				0682F0C2C732EB7804C2DB473C16DC58 /* Support Files */,
+			);
+			name = M3U8Parser;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,11 +267,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		597EA8718089FA1861659884317F1863 /* Headers */ = {
+		83352720FA711216A9B17EF9DB419BA2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E137D2F94C18F4A6534270D9A39DE4C3 /* M3U8Parser-umbrella.h in Headers */,
+				A0AF56B8E00086075339BB2F5038AB13 /* M3U8Parser-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,13 +303,13 @@
 			productReference = 3EF63E907B24860C9CCB574EC7EBD902 /* Pods_M3U8Parser_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7F69583224F6D240D1C49AF4F8C9DF28 /* M3U8Parser */ = {
+		858C7B31046058FAC23EAA2171FABB16 /* M3U8Parser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A21933BD78E8A95751CC76AF64884331 /* Build configuration list for PBXNativeTarget "M3U8Parser" */;
+			buildConfigurationList = DD8BC57279484DB5481B0AA239E323F3 /* Build configuration list for PBXNativeTarget "M3U8Parser" */;
 			buildPhases = (
-				65587CA05DDE6A8CFD5281A117414492 /* Sources */,
-				B395C839976F50B8D204B538D8893D68 /* Frameworks */,
-				597EA8718089FA1861659884317F1863 /* Headers */,
+				67936EB40141B72CB72A01CCCFAC897A /* Sources */,
+				7B324A2675449A04F47868F3F02BE277 /* Frameworks */,
+				83352720FA711216A9B17EF9DB419BA2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -359,7 +359,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F69583224F6D240D1C49AF4F8C9DF28 /* M3U8Parser */,
+				858C7B31046058FAC23EAA2171FABB16 /* M3U8Parser */,
 				A5C7048F9DF4E6A73BC6AB7837BC1A1D /* Pods-M3U8Parser_Example */,
 				64ADC1AE618C38B39636C4F02E2BD355 /* Pods-M3U8Parser_Tests */,
 			);
@@ -383,24 +383,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65587CA05DDE6A8CFD5281A117414492 /* Sources */ = {
+		67936EB40141B72CB72A01CCCFAC897A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B15CB87B2046A4AF00F92360 /* StringExtensions.swift in Sources */,
-				68EC203F0E9874136FA45DA7F3DE4637 /* M3U8Parser-dummy.m in Sources */,
-				B15CB87D2046A4AF00F92360 /* ReaderBuilder.swift in Sources */,
-				B15CB8732046A4AF00F92360 /* FileBufferedReader.swift in Sources */,
-				B15CB8752046A4AF00F92360 /* MediaPlaylist.swift in Sources */,
-				B15CB8722046A4AF00F92360 /* MediaSegment.swift in Sources */,
-				B15CB8782046A4AF00F92360 /* URLBufferedReader.swift in Sources */,
-				B15CB8772046A4AF00F92360 /* StreamReader.swift in Sources */,
-				B15CB8742046A4AF00F92360 /* ManifestBuilder.swift in Sources */,
-				B15CB8762046A4AF00F92360 /* StringBufferedReader.swift in Sources */,
-				B15CB87A2046A4AF00F92360 /* MasterPlaylist.swift in Sources */,
-				B15CB8792046A4AF00F92360 /* NSURLExtension.swift in Sources */,
-				69DEE9A8842DF920FF2607CF268E3122 /* ReplaceMe.swift in Sources */,
-				B15CB87C2046A4AF00F92360 /* BufferedReader.swift in Sources */,
+				3AD5C44A177991005A1E6828ADA1EF8E /* BufferedReader.swift in Sources */,
+				DF71A6979E3D18DA8780EEED52AD0C34 /* FileBufferedReader.swift in Sources */,
+				C433A1FCA32C67ECF7B88CB6BA985A04 /* M3U8Parser-dummy.m in Sources */,
+				7C46BC0A2C92D4BB545B53678D74225C /* ManifestBuilder.swift in Sources */,
+				4C24A13346BE373A9542C87DA75E10D9 /* MasterPlaylist.swift in Sources */,
+				B6C3C26C181299BEFE0100E39B70ECF4 /* MediaPlaylist.swift in Sources */,
+				845914F83ECCB6BBDF49F04CEE66C821 /* MediaSegment.swift in Sources */,
+				0EDABB8E5E07561FCB3A3788C74BA0AC /* NSURLExtension.swift in Sources */,
+				5AB17164106C8EA23389D99071390BF9 /* ReaderBuilder.swift in Sources */,
+				4A4A9CD9C452EFF9705BAC0F5A22F271 /* ReplaceMe.swift in Sources */,
+				4B2DD7F02E2B4AEC4B9A34586F42F08C /* StreamReader.swift in Sources */,
+				C4ACA07F2D505557EFA2C63F264F568A /* StringBufferedReader.swift in Sources */,
+				C0FEC63FBE2988CCEB85A8B8FE170DD8 /* StringExtensions.swift in Sources */,
+				B7A06CF64C5E7B19F8B2B36619403018 /* URLBufferedReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,75 +410,12 @@
 		ECC788A5F8A0ED59BDBE9F68080A9872 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = M3U8Parser;
-			target = 7F69583224F6D240D1C49AF4F8C9DF28 /* M3U8Parser */;
+			target = 858C7B31046058FAC23EAA2171FABB16 /* M3U8Parser */;
 			targetProxy = DCB2199CEDD8A59E121F2BFECDEFB933 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		46EE4F79981CAFAD7AF769639FBD314C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FFB66ECB7D61E3738DF18FFC8F8477D /* M3U8Parser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/M3U8Parser/M3U8Parser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/M3U8Parser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/M3U8Parser/M3U8Parser.modulemap";
-				PRODUCT_NAME = M3U8Parser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		46F8D73D3AB2D3FB610CF5B51270022D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FFB66ECB7D61E3738DF18FFC8F8477D /* M3U8Parser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/M3U8Parser/M3U8Parser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/M3U8Parser/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/M3U8Parser/M3U8Parser.modulemap";
-				PRODUCT_NAME = M3U8Parser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -541,6 +478,38 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		58D92089E31623C0612990AC57FF69A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C5242415EB552B7FB0E9E6BA87C004 /* M3U8Parser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M3U8Parser/M3U8Parser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M3U8Parser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M3U8Parser/M3U8Parser.modulemap";
+				PRODUCT_NAME = M3U8Parser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -699,6 +668,37 @@
 			};
 			name = Release;
 		};
+		EB0AE595893AFD392851E75B3C47430A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C5242415EB552B7FB0E9E6BA87C004 /* M3U8Parser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M3U8Parser/M3U8Parser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M3U8Parser/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M3U8Parser/M3U8Parser.modulemap";
+				PRODUCT_NAME = M3U8Parser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		ED07FFC4E90893A1721E4D79640C344D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03A0CF0D66308963C401191AD5DBEC76 /* Pods-M3U8Parser_Example.debug.xcconfig */;
@@ -754,20 +754,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A21933BD78E8A95751CC76AF64884331 /* Build configuration list for PBXNativeTarget "M3U8Parser" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46EE4F79981CAFAD7AF769639FBD314C /* Debug */,
-				46F8D73D3AB2D3FB610CF5B51270022D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A2941E734519EADB15D12D1E76C280A4 /* Build configuration list for PBXNativeTarget "Pods-M3U8Parser_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DEAD490BC2D79A6C5533AE23DF75C16 /* Debug */,
 				99F5222A54ED39300BBB0F3ACDE9BB7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD8BC57279484DB5481B0AA239E323F3 /* Build configuration list for PBXNativeTarget "M3U8Parser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0AE595893AFD392851E75B3C47430A /* Debug */,
+				58D92089E31623C0612990AC57FF69A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

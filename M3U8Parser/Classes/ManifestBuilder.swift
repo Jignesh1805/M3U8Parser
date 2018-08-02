@@ -11,9 +11,8 @@ import Foundation
  * Use a BufferedReader to let the parser read from various sources.
  */
 public class ManifestBuilder {
-    var stringUrl:String = ""
     var masterPlaylist = MasterPlaylist()
-
+    var stringUrl:String = ""
     public init() {}
     
     /**
@@ -178,7 +177,6 @@ public class ManifestBuilder {
                 }
             }
         }
-        
         return mediaPlaylist
     }
     
